@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body {
+    width: 100%;
+    font-size: 16px;
+    background-color: rgb(237, 237, 237);
+}
+
+header {
+    background-color: rgb(255, 205, 6);
+    width: 100%;
+    height: 110px;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+}
+.titleheader {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(7, 6, 6);
+    line-height: 70px;
+}
+.menuheader {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 10px;
+}
+.menuheader:hover {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(255, 205, 6);
+}
+.divpost1 {
+    background-color: white;
+    width: 500px;
+    height: 390px;
+    padding: 15px;
+    position: relative;
+    left: 130px;
+    top: 25px;
+    float: left;
+}
+.divpost2 {
+    background-color: white;
+    width: 500px;
+    height: 390px;
+    padding: 15px;
+    position: relative;
+    left: 130px;
+    top: 90px;
+    clear: both;
+}
+.titlepost {
+    color: rgb(255, 205, 6);
+    font-family: Arial, Helvetica, sans-serif;
+    font: bold;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 3px;
+    font-size: 0.8em;
+}
+.h3aside {
+    font-size: 1.1em;
+    color: rgb(79, 78, 78);
+    font: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(255, 205, 6);
+    display: inline-block;
+    padding: 4px 10px 4px 3px;
+    width: 270px;
+}
+.divaside {
+    width: 300px;
+    background-color: white;
+    padding: 10px;
+}
+
+.leiamais {
+    color: rgb(255, 205, 6);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+
+hr {
+    width: 280px;
+    margin: 0px auto;
+}
+
+p, a {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0.2em;
+}
+
+.categorias {
+    color: rgb(255, 205, 6);
+}
+
+aside {
+    float: right;
+    position: relative;
+    right: 130px;
+    top: 25px;
+
+}
+
+#sectionall {
+    position: relative;
+    top: 100px;
+}
+.footer {
+    background-color: rgb(197, 197, 197);
+    height: 20vh;
+    width: 100%;
+    position: relative;
+    top: 120px;
+    bottom: 0px;
+    line-height: 20vh;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
